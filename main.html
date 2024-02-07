@@ -13,19 +13,22 @@
     margin: 0;
 }
 
-div{
-	color: purple;
+div {
+    color: purple;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    background-color: lightblue;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
 }
     </style>
   </head>
   <body>
-    <div>This is center.</div>
+    <div id="center">This is center.</div>
   </body>
 </html>
